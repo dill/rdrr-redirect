@@ -1,0 +1,28 @@
+{
+  "name": "rdrr-redirect",
+  "version": "0.0.1",
+  "description": "rdrr.io redirection",
+  "author": "David Lawrence Miller",
+  "scripts": {
+    "bundle": "web-ext -s add-on -a dist build --overwrite-dest",
+    "serve": "web-ext run -s ./add-on",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dill/rdrr-redirect"
+  },
+  "bugs": {
+    "url": "https://github.com/dill/rdrr-redirect/issues"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "webextensions"
+  ],
+  "devDependencies": {
+    "snyk": "^1.70.2",
+    "web-ext": "^2.4.0"
+  },
+  "snyk": true
+}
