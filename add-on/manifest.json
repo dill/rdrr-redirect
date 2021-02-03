@@ -3,7 +3,7 @@
 	"name": "rdrr.io redirect",
 	"author": "David Lawrence Miller",
 	"short_name": "rdrr-redirect",
-	"version": "0.1",
+	"version": "0.0.1",
 	"description": "Redirects rdocumentation.org links to rdrr.io.",
 	"icons": {
 		"64": "icons/icon-64.png"
